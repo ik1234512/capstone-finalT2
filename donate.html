@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donate Form</title>
+    <link rel="stylesheet" href="donate.css" />
+  </head>
+
+  <body>
+    <section>
+      <div>
+        <h1>Donate</h1>
+       
+        <p>
+          Donate to help thousands of people
+        </p>
+        <h3>
+         Donation Form
+        </h3>
+      </div>
+      <form
+        action="alert:Thank for the donation"
+
+      >
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Name" />
+        <br>
+
+        <label for="nickname">Email</label>
+        <input type="text" name="nickname" id="nickname" placeholder="Email" />
+        <br>
+        <label for="superhero">Choose a Scheme</label>
+        <br />
+        <input type="checkbox" name="ironman" id="ironman" />
+        <label for="IronMan">Feed a child @Rs 5</label>
+        <br>
+        <input type="checkbox" name="SuperMan" id="SuperMan" />
+        <label for="SuperMan">Mid-Day Scheme @Rs100 per month</label>
+        <br>
+        <input type="checkbox" name="BatMan" id="BatMan" />
+        <label for="BatMan">Covid relief kit scheme</label>
+        <br>
+        <input type="checkbox" name="BatMan" id="BatMan" />
+        <label for="BatMan">Health Kit Scheme</label>
+        <br>
+        <br>
+       
+        
+        <label for="age">Donation Amount</label>
+        <input type="number" name="age" id="age"/>
+        <br>
+
+       
+        
+        
+        <button type="button" onclick="getInfo()"><a href=thanks.html>Donate</a></button>
+        <button type="button" onclick="getInfo()"><a href=index.html>Back</a></button>
+      </form>
+    </section>
+  </body>
+</html>

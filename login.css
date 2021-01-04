@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background: #141E30;  
+    background: -webkit-linear-gradient(to right, #243B55, #141E30); 
+    background: linear-gradient(to right, #243B55, #141E30);
+
+    background-size: 100% 100%;
+}
+h1{
+    color: rgb(255, 0, 0);
+    align-items: center;
+    text-align: center;
+    font-size: 100px;
+    text-shadow:-1px 1px 0 #000,
+    1px 1px 0 #000,
+   1px -1px 0 #000,
+  -1px -1px 0 #000;
+
+}
+.form{
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+    justify-content:center;
+    align-content: space-around;
+    
+}
+h2{
+    color: rgb(250, 8, 8);
+    align-items: center;
+    text-align: center;
+    font-size: 70px;
+    text-shadow:-1px 1px 0 #000,
+    1px 1px 0 #000,
+   1px -1px 0 #000,
+  -1px -1px 0 #000;
+}
+input[type="text"],
+input[type="password"],
+button{
+    width: 300px;
+    height: 40px;
+    border: 1px solid gray;
+    padding: 0 5px;
+}
+button a{
+    color: black;
+}
